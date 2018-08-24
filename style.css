@@ -1,0 +1,80 @@
+header{
+  display:block;
+  margin:3rem;
+  background-color:grey;
+  color:white;
+  width:100%;
+  font-size: 1.5rem
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    font-family: "Avenir";
+    margin: 1rem;
+}
+
+
+button {
+    background-color:#68a276;
+    padding: 1rem;
+    border:10;
+}
+  label{
+    color:purple;
+    display:block;
+    z-index:auto;
+}
+
+.album5{
+  /* z-index:inherit; */
+
+  width:20%;
+  height:inherit;
+  margin:3rem;
+
+}
+.album1{
+  /* z-index:auto; */
+  width:20%;
+  height:inherit
+  margin:3rem;
+}
+.choose{
+    margin:3rem;
+    border:14;
+    background-color:#68a276;
+    color:white;
+    height:15%;
+    width:19%;
+    font-weight: 700;
+}
+.albums{
+  z-index:auto;
+  margin:15rem;
+  width:20%;
+  height:20%;
+
+}
+.clear{
+  z-index: inherit;
+  margin:3rem;
+  background-color:#68a276;
+  color: white;
+  width:19%;
+}
+.submit{
+  z-index: inherit;
+  background-color:#68a276;
+  color:white;
+  width:19%;
+}
+
+footer{
+  margin:3rem;
+  display:block;
+  background-color:#68a276;
+  color:white;
+  width:100%;
+  font-size: 1.5rem
+}
