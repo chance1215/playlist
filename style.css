@@ -1,66 +1,73 @@
 header{
+  position: absolute;
+  left: 0;
+  top:0;
+  padding:0px;
+  margin:0px;
+  background-color:grey;
+  color:white;
+  width:100%;
+  height: 100px;
+  font-size: 1.5rem
+}
+
+body {
+    font-family:"Avenir";
+    margin:13rem;
+
+}
+.Track{
+
+}
+  button {
+    float:left;
+    vertical-align: middle
+     z-index: auto;
+      margin:1rem;
+      background-color:black;
+      color:white;
+      height:100%;
+      width:100%;
+      font-weight:500;
+      padding: 1rem;
+      border:0;
+}
+  label {
+    margin:9rem;
+    font-size:2rem;
+    color:purple;
+    display:block;
+}
+
+h2 {
   display:block;
-  margin:3rem;
+  border:100rem;
+  margin:8rem;
   background-color:grey;
   color:white;
   width:100%;
   font-size: 1.5rem
 }
-
-body {
-  background: url(/images/fadedTrack.jpg);
-    align-items: center;
-    justify-content: center;
-    font-family: "Avenir";
-    margin: 1rem;
-}
-
- button {
-    background-color:black;
-    padding: 1rem;
-    border:10;
-}
-  label{
-    font-size: 2rem;
-    color:purple;
-    display:block;
-    z-index:auto;
-}
-.album1{
-  align-items: flex-end;
-  width:20%;
-  height:19%;
-  margin:3rem;
-}
 .album2{
-  background:url(/images/fadedTrack.jpg);
   width:10%;
   height:19%;
   margin:3rem;
 }
 .album4{
-  background: url(/images/fadedTrack.jpg);
   width:20%;
   height:inherit;
   margin:3rem;
 
 }
 
-.railroad{
+/* .railroad{
+  background:url(/images/fadedTrack.jpg);
   opacity:19%;
-  display:right;
-
   margin:10rem;
   height:100%;
-}
-.choose{
-    margin:3rem;
-    background-color:black;
-    color:white;
-    height:10%;
-    width:20%;
-    font-weight: 700;
-}
+} */
+
+
  .albums{
   z-index:auto;
   margin:15rem;
@@ -70,26 +77,39 @@ body {
 
 }
 .clear{
-  z-index: inherit;
-  margin:3rem;
   background-color:black;
   color: white;
-  width:19%;
-  height: auto;
+  width:70%;
+  height:20%;
 }
 .submit{
-  z-index: inherit;
   background-color:black;
   color:white;
-  width:19%;
-  height: 19%;
+  width:70%;
+  height: 10%;
+}
+.album1{
+  margin:5rem;
+  width:5%;
+  height:5%;
+  margin:1rem;
 }
 
+.album3{
+  margin:5rem;
+  width:1%;
+  height:2%;
+
+}
 footer{
-  margin:3rem;
-  display:block;
+  position: static;
+  left: 0;
+  bottom:0;
+  padding:0px;
+  margin:0px;
   background-color:grey;
   color:white;
   width:100%;
+  height: 100px;
   font-size: 1.5rem
 }
